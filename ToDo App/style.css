@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+
+}
+
+#page-wrapper .header{
+    
+        background-color: #353535;
+        display: flex;
+        justify-content: flex-start;
+        padding: 15px;   
+        border-bottom: 3px solid violet;
+}
+
+.header .header-title{
+        color: orchid;
+        font-size: 32px;
+        font-weight: 700;
+    
+}
+
+
+.input-bar{
+    width: 50%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    
+}
+.input-bar .input-element{
+    width: 600px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 18px;
+}
+
+#todolist .todo{
+    width: 50%;
+    margin: 0 auto;
+    border-bottom: 1px solid red;
+    margin-bottom: 20px;
+}
+
+.remove-btn{
+    float: right;
+    
+}
